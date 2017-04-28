@@ -1,0 +1,14 @@
+#home {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    overflow-y: hidden;
+    background-size: cover;
+    background: url("../images/bg.jpg"), black; /* fallback for old browsers */
+
+    @media (min-width: 768px) {
+        background-size: cover;
+        min-height: 100%;
+    }
+
+}

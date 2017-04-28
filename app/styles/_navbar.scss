@@ -1,0 +1,17 @@
+.navbar-default {
+
+  @media (min-width: 768px) {
+    background-color: transparent;
+    border-color: transparent;
+    .navbar-brand {
+      color: white;
+    }
+    &.affix {
+      background-color: white;
+      border-color: fade($gray-darker, 10%);
+      .navbar-brand {
+        color: $gray-darker;
+      }
+    }
+  }
+}
